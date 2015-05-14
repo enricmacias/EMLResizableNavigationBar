@@ -2,12 +2,12 @@
 //  Copyright (c) 2014 Enric Macias Lopez. All rights reserved.
 //
 
-#import "EMLResizableNavigationBarTableViewController.h"
+#import "EMLResizableNavigationBarViewController.h"
 
 #define kStatusBarHeight 20.0
 #define kTitleImageTimesSmall 2.8
 
-@interface EMLResizableNavigationBarTableViewController ()
+@interface EMLResizableNavigationBarViewController ()
 
 @property (nonatomic, strong) UIImageView *titleView;
 @property (nonatomic, assign) CGFloat previousScrollViewYOffset;
@@ -15,7 +15,7 @@
 
 @end
 
-@implementation EMLResizableNavigationBarTableViewController
+@implementation EMLResizableNavigationBarViewController
 
 #pragma mark -
 #pragma mark Lifecycle

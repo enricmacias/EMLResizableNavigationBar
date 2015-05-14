@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <EMLResizableNavigationBarTableViewController.h>
+#import <EMLResizableNavigationBarViewController.h>
 
-@interface EMLDemoViewController : EMLResizableNavigationBarTableViewController <UITableViewDataSource, UITableViewDelegate>
+@interface EMLDemoViewController : EMLResizableNavigationBarViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 

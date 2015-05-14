@@ -4,7 +4,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EMLResizableNavigationBarTableViewController : UIViewController <UIScrollViewDelegate>
+@interface EMLResizableNavigationBarViewController : UIViewController <UIScrollViewDelegate>
 
 @property (nonatomic, assign) BOOL resizableBarTitleDisappears;
 @property (nonatomic, assign) CGFloat resizableBarResizePercent; // 0.0 Completely gone // 1.0
