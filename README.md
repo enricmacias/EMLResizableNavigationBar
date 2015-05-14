@@ -22,7 +22,7 @@ pod "EMLResizableNavigationBar"
 
 ## Author
 
-enric.macias.lopez, enric.macias.lopez@glpgs.com
+enric.macias.lopez, enric.macias.lopez@gmail.com
 
 ## License
 
