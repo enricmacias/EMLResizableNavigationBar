@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
                        Includes different ways to vanish/shrimp the title and bar buttons.
                        DESC
   s.homepage         = "https://github.com/enricmacias/EMLResizableNavigationBar.git"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot1.png", "https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot2.png", "https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot3.png"
   s.license          = 'MIT'
   s.author           = { "enric.macias.lopez" => "enric.macias.lopez@glpgs.com" }
   s.source           = { :git => "https://github.com/enricmacias/EMLResizableNavigationBar.git", :tag => s.version.to_s }
