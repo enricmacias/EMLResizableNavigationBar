@@ -1,0 +1,20 @@
+PODS:
+  - EMLResizableNavigationBar (1.0)
+  - Expecta (1.0.0)
+  - Specta (1.0.0)
+
+DEPENDENCIES:
+  - EMLResizableNavigationBar (from `../`)
+  - Expecta
+  - Specta
+
+EXTERNAL SOURCES:
+  EMLResizableNavigationBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EMLResizableNavigationBar: ff0bdbd1895f4d5b832fb5c4e1517ce03c6e93ed
+  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
+
+COCOAPODS: 0.36.3
