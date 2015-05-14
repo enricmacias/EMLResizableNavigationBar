@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/EMLResizableNavigationBar.svg?style=flat)](http://cocoapods.org/pods/EMLResizableNavigationBar)
 [![Platform](https://img.shields.io/cocoapods/p/EMLResizableNavigationBar.svg?style=flat)](http://cocoapods.org/pods/EMLResizableNavigationBar)
 
+![alt tag](https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot1.png)
+![alt tag](https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot2.png)
+![alt tag](https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot3.png)
+
 ## Usage
 
 ## Installation
