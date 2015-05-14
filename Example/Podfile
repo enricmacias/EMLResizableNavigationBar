@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'EMLResizableNavigationBar', :exclusive => true do
+  pod "EMLResizableNavigationBar", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "EMLResizableNavigationBar", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
