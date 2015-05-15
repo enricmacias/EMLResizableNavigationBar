@@ -9,13 +9,58 @@
 
 ## Usage
 
+1. Inherit your UIViewController class containing the UIScrollView/UITableView with EMLResizableNavigationBarViewController.
+2. Set the UIScrollView/UITableView delegate to self.
+3. You are done!
+
+NOTE: You cannot inherit directly from UITableViewController. To use EMLResizableNavigationBar with a UITableView you need to create a property table view inside a UIViewController and adopt UITableViewDataSource plus UITableViewDelegate.
+
+```objective-c
+@interface EMLDemoViewController : EMLResizableNavigationBarViewController <UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
+
+@end
+```
+
+## Customization
+
+Add a title:
+```objective-c
+self.navigationItem.titleView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"nav_logo"]];
+```
+or
+```objective-c
+self.title = @"ResizableBar";
+```
+
+Hide the bar just half its size:
+```objective-c
+self.resizableBarResizePercent = 0.5f;
+```
+
+Show the title even when the bar is hidden:
+```objective-c
+self.resizableBarTitleDisappears = NO;
+```
+
 ## Installation
 
-EMLResizableNavigationBar is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### Cocoapods
+
+EMLResizableNavigationBar is available through [CocoaPods](http://cocoapods.org). 
 
 ```ruby
 pod "EMLResizableNavigationBar"
+```
+
+#### Manually
+
+Import the following files into your project:
+
+```ruby
+EMLResizableNavigationBarViewController.h
+EMLResizableNavigationBarViewController.m
 ```
 
 ## Author
