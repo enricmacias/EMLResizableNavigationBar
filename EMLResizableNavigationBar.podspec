@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/enricmacias/EMLResizableNavigationBar.git"
   s.screenshots     = "https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot1.png", "https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot2.png", "https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/screenshot3.png"
   s.license          = 'MIT'
-  s.author           = { "enric.macias.lopez" => "enric.macias.lopez@glpgs.com" }
+  s.author           = { "enric.macias.lopez" => "enric.macias.lopez@gmail.com" }
   s.source           = { :git => "https://github.com/enricmacias/EMLResizableNavigationBar.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
