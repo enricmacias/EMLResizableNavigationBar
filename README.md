@@ -5,7 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/EMLResizableNavigationBar.svg?style=flat)](http://cocoapods.org/pods/EMLResizableNavigationBar)
 [![Platform](https://img.shields.io/cocoapods/p/EMLResizableNavigationBar.svg?style=flat)](http://cocoapods.org/pods/EMLResizableNavigationBar)
 
+## Description
+
+Implements a navigation bar behaviour such as the one in Safari app. Allows some kind of behaviour customization.
+
 ![alt tag](https://raw.github.com/enricmacias/EMLResizableNavigationBar/master/Preview/preview.gif)
+
+## Requirements
+
+- iOS 7.0
+- ARC
 
 ## Usage
 
