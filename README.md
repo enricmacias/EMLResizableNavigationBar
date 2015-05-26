@@ -67,7 +67,7 @@ pod "EMLResizableNavigationBar"
 
 Import the following files into your project:
 
-EMLMenuBar/Pod/Classes folder:
+EMLResizableNavigationBar/Pod/Classes folder:
 ```ruby
 EMLResizableNavigationBarViewController.h
 EMLResizableNavigationBarViewController.m
