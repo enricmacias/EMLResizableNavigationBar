@@ -55,7 +55,7 @@ self.resizableBarTitleDisappears = NO;
 
 ## Installation
 
-#### Cocoapods
+#### CocoaPods
 
 EMLResizableNavigationBar is available through [CocoaPods](http://cocoapods.org). 
 
